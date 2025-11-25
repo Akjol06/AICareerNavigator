@@ -5,3 +5,7 @@ api_platform:
         stateless: true
         cache_headers:
             vary: ['Content-Type', 'Authorization', 'Origin']
+    enable_docs: true
+    enable_swagger: true
+    enable_swagger_ui: true
+    enable_re_doc: true
